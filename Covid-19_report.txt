@@ -1,0 +1,9 @@
+Covid-19 Stats for Guyana
+Total tests so far: 559944
+Total cases so far: 63195
+Total deaths so far: 1226
+Percentage of infected persons from tests = 11.29%
+Percentage of tests wasted = 88.71%
+kill rate in Guyana is currently at: 2.0%
+2022-03-21 21:44
+
