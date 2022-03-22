@@ -1,9 +1,10 @@
 import requests
-#import os
+# import os
 import datetime
+
 now = datetime.datetime.now()
 file_location = "Covid-19_report.txt"
-
+# The covid website you can change country
 url = 'https://coronavirus-19-api.herokuapp.com/countries/guyana'
 
 req = requests.get(url)
@@ -19,8 +20,8 @@ active = output['active']
 critical = output['critical']
 totalTests = output['totalTests']
 
-deaths_percentage = (deaths/cases) * 100
-percentage = (cases/totalTests) * 100
+deaths_percentage = (deaths / cases) * 100
+percentage = (cases / totalTests) * 100
 wasted_tests = 100 - percentage
 
 f = open(file_location, "a")
